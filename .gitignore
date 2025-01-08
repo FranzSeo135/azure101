@@ -1,0 +1,89 @@
+# -------------------------------
+# User Information & Environment Files
+# -------------------------------
+
+# ->-> git rm -r --cached .
+
+*.env                # Environment variable files
+.env.*              # Other environment variable files
+local.settings.json # Azure Functions local settings
+secrets.json        # Custom secrets file
+*.pem               # Private key files
+*.crt               # Certificate files
+*.key               # Key files
+*.pfx               # PKCS certificate files
+azureProfile.json   # Azure CLI profile
+azureSub.json       # Azure CLI subscription info
+.terraform/environment # Terraform environment configuration
+
+# -------------------------------
+# Node.js
+# -------------------------------
+
+node_modules/       # Node.js packages
+dist/               # Distribution directory
+build/              # Build directory
+npm-debug.log*      # npm debug logs
+yarn-debug.log*     # Yarn debug logs
+yarn-error.log*     # Yarn error logs
+
+# -------------------------------
+# Python
+# -------------------------------
+
+__pycache__/        # Python cache directory
+*.py[cod]           # Compiled Python files
+.venv/              # Virtual environment directory
+
+# -------------------------------
+# Azure Functions
+# -------------------------------
+
+local.settings.json # Local settings file (contains secrets)
+bin/                # Compiled binaries
+obj/                # Object files
+
+# -------------------------------
+# Terraform
+# -------------------------------
+
+*.tfstate           # Terraform state files
+*.tfstate.backup    # Terraform state backups
+.terraform/         # Terraform cache directory
+crash.log           # Terraform crash logs
+override.tf         # Terraform override configuration
+override.tf.json    # JSON override configuration
+*.tfvars            # Terraform variable files (may contain sensitive information)
+
+# -------------------------------
+# Kubernetes
+# -------------------------------
+
+.kube/              # Kubernetes configuration directory
+
+# -------------------------------
+# Visual Studio & VS Code
+# -------------------------------
+
+.vscode/            # VS Code settings
+*.suo               # Visual Studio solution user options
+*.user              # User-specific configuration
+*.userosscache      # Visual Studio OSS cache
+*.sln.docstates     # Visual Studio solution document states
+
+# -------------------------------
+# Docker
+# -------------------------------
+
+*.dockerignore      # Docker ignore file
+docker-compose.override.yml # Docker Compose override file
+
+# -------------------------------
+# Logs & Temporary Files
+# -------------------------------
+
+*.log               # Log files
+*.tmp               # Temporary files
+*.swp               # Swap files (e.g., Vim)
+.DS_Store           # macOS metadata files
+Thumbs.db           # Windows thumbnail cache
