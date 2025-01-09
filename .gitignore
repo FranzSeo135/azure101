@@ -1,4 +1,9 @@
+# Global Config
+
 .env
 *.env
 *.env.*
 
+chromedriver/*
+MakeEZReadDump3.py
+ChromeDriverDownload.py
